@@ -139,3 +139,4 @@ par$hour <- format(par$dt, '%H')
 par.hour<-aggregate(par$PARMean, by=list(par$hour), FUN=mean, na.rm=T)
 aggregate(par$PARExpUncert, by=list(par$hour==5:10), FUN=mean, na.rm=T)
 
+###new comment
